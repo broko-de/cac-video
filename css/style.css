@@ -114,7 +114,7 @@ nav{
 
 .busqueda-titulo{
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .input-buscar {
@@ -278,8 +278,17 @@ nav{
     h2{
         font-size: 3vw;
     }
+    .login-texto{
+        display: none;
+    }
+    .logo-texto{
+        display: none;
+    }
     #banner{
         height: 400px;
+    }
+    #busqueda{
+        height: 200px;
     }
     .container{
         max-width: 720px;
@@ -312,8 +321,17 @@ nav{
     h2{
         font-size: 3vw;
     }
+    .login-texto{
+        display: none;
+    }
+    .logo-texto{
+        display: none;
+    }
     #banner{
         height: 300px;
+    }
+    #busqueda{
+        height: 200px;
     }
     .container{
         max-width: 420px;
