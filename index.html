@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cac-Videos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <i class="fas fa-film fa-spin"></i>
+                CAC - Movies
+            </div>
+            <ul class="nav-links">
+                <li><a href="#tendencias">Tendencias</a>  </li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a class="btn-cac" href="#">Iniciar Sesión</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="banner" class="d-flex">
+            <div class="container">
+                <div class="card-banner">
+                    <h1>Películas y series ilimitadas y mucho más.</h1>
+                    <h2>Disfruta donde quieras. Cancela cuando quieras.</h2>
+                        <a href="#" class="btn-cac">Registrate</a>
+                </div>
+            </div>
+            <div class="bg-overlay"></div>
+        </section>
+        <section id="busqueda" class="container">
+            <h2 class="busqueda-titulo">¿Qué estas buscando para ver?</h2>
+            <input type="text" class="input-buscar" placeholder="Buscar...">
+        </section>
+
+        <section id="tendencias">
+            <div class="container">
+                <h2>Las tendencias de hoy</h2>
+                <div class="peliculas-grid">
+                    <div class="pelicula-item">
+                        <img src="https://picsum.photos/id/1070/200/300" alt="" class="pelicula-item-img">
+                        <div class="pelicula-item-detalle">
+                            <p class="pelicula-item-detalle-titulo">Titulo descriptivo</p>
+                            <p class="pelicula-item-detalle-subtitulo">2019 +16 120minutos</p>
+                        </div>
+                    </div>
+
+                    <div class="pelicula-item">
+                        <img src="https://picsum.photos/id/1071/200/300" alt="" class="pelicula-item-img">
+                        <div class="pelicula-item-detalle">
+                            <p class="pelicula-item-detalle-titulo">Titulo descriptivo</p>
+                            <p class="pelicula-item-detalle-subtitulo">2019 +16 120minutos</p>
+                        </div>
+                    </div>
+
+                    <div class="pelicula-item">
+                        <img src="https://picsum.photos/id/1060/200/300" alt="" class="pelicula-item-img">
+                        <div class="pelicula-item-detalle">
+                            <p class="pelicula-item-detalle-titulo">Titulo descriptivo</p>
+                            <p class="pelicula-item-detalle-subtitulo">2019 +16 120minutos</p>
+                        </div>
+                    </div>
+
+                    <div class="pelicula-item">
+                        <img src="https://picsum.photos/id/1061/200/300" alt="" class="pelicula-item-img">
+                        <div class="pelicula-item-detalle">
+                            <p class="pelicula-item-detalle-titulo">Titulo descriptivo</p>
+                            <p class="pelicula-item-detalle-subtitulo">2019 +16 120minutos</p>
+                        </div>
+                    </div>
+
+                    <div class="pelicula-item">
+                        <img src="https://picsum.photos/id/1066/200/300" alt="" class="pelicula-item-img">
+                        <div class="pelicula-item-detalle">
+                            <p class="pelicula-item-detalle-titulo">Titulo descriptivo</p>
+                            <p class="pelicula-item-detalle-subtitulo">2019 +16 120minutos</p>
+                        </div>
+                    </div>
+
+                    <div class="pelicula-item">
+                        <img src="https://picsum.photos/id/1069/200/300" alt="" class="pelicula-item-img">
+                        <div class="pelicula-item-detalle">
+                            <p class="pelicula-item-detalle-titulo">Titulo descriptivo</p>
+                            <p class="pelicula-item-detalle-subtitulo">2019 +16 120minutos</p>
+                        </div>
+                    </div>
+
+                    <div class="pelicula-item">
+                        <img src="https://picsum.photos/id/1068/200/300" alt="" class="pelicula-item-img">
+                        <div class="pelicula-item-detalle">
+                            <p class="pelicula-item-detalle-titulo">Titulo descriptivo</p>
+                            <p class="pelicula-item-detalle-subtitulo">2019 +16 120minutos</p>
+                        </div>
+                    </div>
+
+                    <div class="pelicula-item">
+                        <img src="https://picsum.photos/id/1067/200/300" alt="" class="pelicula-item-img">
+                        <div class="pelicula-item-detalle">
+                            <p class="pelicula-item-detalle-titulo">Titulo descriptivo</p>
+                            <p class="pelicula-item-detalle-subtitulo">2019 +16 120minutos</p>
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="container d-flex">
+                <div class="d-form">
+                    <h2>Contacto</h2>
+                    <form action="">
+                        <div class="div-field">
+                            <input class="input-contacto" type="text" name="nombre" id="nombre" placeholder="Ingrese Nombre">
+                        </div>
+                        <div class="div-field">
+                            <input class="input-contacto" type="email" name="email" id="email" placeholder="Ingrese Email">
+                        </div>
+                        <div class="div-field">
+                            <textarea class="input-contacto" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Dejanos tu mensaje"></textarea>
+                        </div>
+                        <input type="submit" value="Enviar" class="btn-cac">
+                    </form>
+                </div>
+                <div class="d-iframe">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/aG-BQTpspq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <a href="">Términos y condiciones</a>
+        <a href="">Preguntas Frecuentes</a>
+        <a href="">Ayuda</a>
+    </footer>
+</body>
+</html>
